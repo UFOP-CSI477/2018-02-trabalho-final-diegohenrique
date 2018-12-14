@@ -12,10 +12,10 @@ function cabecalho(){
 		<title>Loja de Camisas de Futebol Online | BrasFut - Inscreva-se</title>
 		
 		<!-- jquery - link cdn -->
-		<script src="jquery/jq.js"></script>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 
 		<!-- bootstrap - link cdn -->
-		<link rel="stylesheet" href="css/bs.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/estilo.css">
 	
 	</head>

@@ -40,12 +40,12 @@
     if(mysqli_query($link, $sql)){
       //echo "Emite um alerta se deu certo o cadastro de um novo registro";
        echo "<script>
-        alert('Cadastro realizado com sucesso!   Aperte OK');
+        alert('Foi realizado com sucesso!   Aperte OK');
        location.href='listarProdutos.php'</script>";
     }else{
        //echo "Algo deu errado ao cadastrar";
         echo "<script>
-         alert('Erro ao cadastrar...     Aperte OK para voltar!');
+         alert('Erro...     Aperte OK para voltar!');
         location.href='cadastraNovosProdutos.php'</script>";
     }
 
