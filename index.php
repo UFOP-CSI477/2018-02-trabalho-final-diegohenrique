@@ -53,7 +53,8 @@
 	      </div>
 	      </div>
 	    </div>
-
+		<br>
+		<br>
 		<div class="container">
 			<div class="row">
 				<?php 
@@ -63,7 +64,7 @@
     			$sql_produtos = "SELECT * FROM produtos";
     			$resultado_produtos = mysqli_query($link, $sql_produtos);
     			while($totalProdutos = mysqli_fetch_array($resultado_produtos)){
-					mostrarProduto($totalProdutos['idproduto'], $totalProdutos['nome'], $totalProdutos['preco'], $totalProdutos['imagem'], $totalProdutos['qtd']);
+					mostrarProduto($totalProdutos['idproduto'], $totalProdutos['nome'], $totalProdutos['descricao'], $totalProdutos['preco'], $totalProdutos['imagem'], $totalProdutos['qtd']);
 				}
 				?>
 

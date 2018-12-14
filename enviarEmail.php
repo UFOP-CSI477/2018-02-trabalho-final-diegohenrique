@@ -1,5 +1,5 @@
 <?php   
  echo "<script>
-        alert('Email realizado com sucesso!   Aperte OK');
-       location.href='listarProdutos.php'</script>";
+        alert('Mensagem realizada com sucesso!   Aperte OK');
+       location.href='index.php'</script>";
   ?>   

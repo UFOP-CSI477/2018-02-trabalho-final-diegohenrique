@@ -29,6 +29,17 @@
 						<input type="password" class="form-control" id="senha" name="senha" placeholder="Digite sua senha" required="requiored">
 					</div>
 
+					<!-- <div class="form-group">
+					
+						<label for="tipo">Tipo</label>
+						<select name="tipo" id="tipo" class="form-control">
+							
+							<option value="0" selected>Cliente</option>
+							<option value="1">Administrador</option>
+						</select>	
+					
+					</div> -->
+
 					<div class="checkbox">
 					  <label for="termos"> 
 					    <input type="checkbox" required=""> Aceito os termos do serviço.

@@ -9,7 +9,7 @@ function cabecalho(){
 	<head>
 		<meta charset="UTF-8">
 
-		<title>Loja de Camisas de Futebol Online | BrasFut - Inscreva-se</title>
+		<title>Loja de Camisas de Futebol Online | BrasFut</title>
 		
 		<!-- jquery - link cdn -->
 		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
@@ -51,7 +51,7 @@ function cabecalho(){
 					<?php 
 						if(isset($_SESSION['tipo']) && $_SESSION['tipo'] == 1){
 					 
-	                echo '<li class="nav-item"><a href="listarProdutos.php"><span class="glyphicon glyphicon-envelope"></span>  Listar Produtos</a></li>';
+	                echo '<li class="nav-item"><a href="listarProdutos.php"><span class="glyphicon glyphicon-list-alt"></span>  Listar Produtos</a></li>';
 	            }
 	                ?>
 	                <li class="nav-item"><a href="contato.php"><span class="glyphicon glyphicon-envelope"></span>  Contato</a></li>
@@ -138,13 +138,14 @@ function autenticar(){
 	}
 }
 
-function mostrarProduto($id, $nome, $preco, $imagem, $qtd){
+function mostrarProduto($id, $nome, $descricao, $preco, $imagem, $qtd){
 	echo '<div class="col-md-3">
 	<form action="pagamento.php" method="get" accept-charset="utf-8">
               <div class="card" style="width: 18rem; text-align: center">
                   <img class="card-img-top" src="imagens/'.$imagem.'.jpg" alt="'.$nome.'" style="width: 50%;">
                   <div class="card-body">
                   <h5 class="card-title">'.$nome.'</h5>
+                  <h5>'.$descricao.'</h5>
                   <h5>R$'.$preco.'</h5>
                   <input type="number" name="qtd" max="'.$qtd.'" min="1" value="1"><br>
                   <input type="hidden" name="idproduto" value="'.$id.'">

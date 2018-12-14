@@ -5,6 +5,7 @@
     $usuario = $_POST['usuario'];
     $email = $_POST['email'];
     $senha = $_POST['senha'];
+    //$tipo = $_POST['tipo'];
     $tipo = 0;
 
     $objDb = new db();
