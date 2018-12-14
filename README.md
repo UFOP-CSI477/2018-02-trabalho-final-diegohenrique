@@ -17,7 +17,7 @@ Este projeto terá as seguintes funcionalidades: o cadastro de usuários; o cada
      - Só quem é cadastrado no sistema pode realizar as compras (seja ela o administrador ou cliente).
      - O pagamento só é aceito por boleto.
      - Esse projeto não tem a opção de adicionar/remover produtos no carrinho, realizando uma compra por vez.     
-     - A página contato para ser enviado uma mensagem ao administrador não é realizada.
+     - A página contato para ser enviado uma mensagem ao email do administrador não é realizada, só é mostrado aparentemente que foi enviado uma mensagem.
      
 ### 4. Protótipo
 Funcionalidades: 
@@ -29,8 +29,6 @@ Funcionalidades:
     É possível o administrador deslogar do sistema a qualquer momento.
 
 ### 5. Referências
-
-W3SCHOOLS. Disponível em: https://www.w3schools.com/ Acesso em: 13 de Dezembro de 2018
 
 BOOTSTRAP. Disponível em: https://getbootstrap.com/ Acesso em: 13 de Dezembro de 2018
 
