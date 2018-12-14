@@ -8,7 +8,7 @@ O objetivo deste documento é apresentar uma proposta para o trabalho desenvolvi
 
 ### 1. Tema
 O trabalho final tem como tema o desenvolvimento de uma loja virtual. Sendo realizado a vendas de camisas dos times. 
-Na implementação foi utilizado as tecnologias/ferramentas: Bootstrap, CSS, HTML, PHP, Sublime Text.
+Na implementação foi utilizado as tecnologias/ferramentas: Bootstrap, CSS, HTML, PHP, JavaScript e Sublime Text.
 
 ### 2. Escopo
 Este projeto terá as seguintes funcionalidades: o cadastro de usuários; o cadastro de produtos; remover produtos; editar produtos; navegar entre os produtos; supostamente finalizar a compra e gerar boleto pdf.
