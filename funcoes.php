@@ -11,7 +11,7 @@ function cabecalho()
 	<head>
 		<meta charset="UTF-8">
 
-		<title>BRASFUT - A sua Loja de Camisas de Futebol</title>
+		<title>BRASFUT - Sua Loja de vendas de Camisas de Futebol</title>
 		
 		<!-- jquery - link cdn -->
 		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
