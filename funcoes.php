@@ -1,15 +1,17 @@
 <?php 
 
-function cabecalho(){
+function cabecalho()
+{
 	require_once('db.class.php');
 	session_start();
 	?>
-	<!DOCTYPE HTML>
+
+<!DOCTYPE HTML>
 <html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
 
-		<title>Loja de Camisas de Futebol Online | BrasFut</title>
+		<title>BRASFUT - A sua Loja de Camisas de Futebol</title>
 		
 		<!-- jquery - link cdn -->
 		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
@@ -129,7 +131,8 @@ function rodape(){
 	<?php 
 }
 
-function autenticar(){
+function autenticar()
+{
 	if(!isset($_SESSION['tipo'])){
 		echo '
 		<script> alert("Você tem que conectar para acessar essa tela");
@@ -138,7 +141,8 @@ function autenticar(){
 	}
 }
 
-function mostrarProduto($id, $nome, $descricao, $preco, $imagem, $qtd){
+function mostrarProduto($id, $nome, $descricao, $preco, $imagem, $qtd)
+{
 	echo '<div class="col-md-3">
 	<form action="pagamento.php" method="get" accept-charset="utf-8">
               <div class="card" style="width: 18rem; text-align: center">
